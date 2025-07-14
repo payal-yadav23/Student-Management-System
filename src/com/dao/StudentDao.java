@@ -55,6 +55,8 @@ public class StudentDao {
 						rs.getString("dob"), rs.getString("gender"), rs.getString("email"), rs.getString("mobNo"),
 						rs.getString("course"), rs.getString("enrollDate")));
 
+				ps.close();
+				c.close();
 			}
 
 		} catch (Exception e) {

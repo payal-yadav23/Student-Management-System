@@ -82,6 +82,7 @@ public class StudentController {
 		default:
 			System.out.println("Invalid Choice.. TRY AGAIN !");
 		}
+		sc.close();
 
 	}
 
